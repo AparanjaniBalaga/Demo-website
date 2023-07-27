@@ -1,0 +1,55 @@
+#contact{
+    padding: 30px 0px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left-col{
+    flex-basis: 50%;
+    padding-top: 50px;
+}
+.contact-right-col{
+    flex-basis: 50%;
+    max-width: 450px;
+    margin: auto;
+}
+.contact-right-col i{
+    font-size: 20px;
+    padding: 10px;
+    background:#089de3;
+    color: white;
+}
+.contact-right-col p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form{
+
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+.form input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.c_btn{
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border:none;
+}

@@ -1,0 +1,55 @@
+ /* Service Start */
+ .service {
+    background-color: #fff;
+    }
+    
+    .service > h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    }
+    
+    .col {
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    border-right: solid #bebebe 1px;
+    padding-bottom: 30px;
+    float: left;
+    }
+    
+    .col:last-child {
+    border-right: none;
+    }
+    
+    .col > h3 {
+    /* top-bottom right-left */
+    padding: 10px 0px;
+    color: grey;
+    }
+    
+    .col > p {
+    padding-bottom: 20px;
+    }
+    
+    .col > a {
+    background-color: #089de3;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    }
+    
+    .col > a:hover {
+    background-color: #111111;
+    border: solid #111111 2px;
+    }
+    .service::after {
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+    }
+    /* Service End */

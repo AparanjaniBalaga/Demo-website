@@ -1,0 +1,16 @@
+/* Footer Start */
+footer {
+    background-color: #089de3;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    footer > small {
+    color: #fff;
+    }
+    
+    footer > small > a {
+    color: #fff;
+    text-decoration: none;
+    }
+    /* Footer End */
